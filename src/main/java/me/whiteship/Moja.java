@@ -1,8 +1,8 @@
 package me.whiteship;
 
-public class Moja {
+import me.whiteship.annotation.Magic;
 
-    public String pullOut() {
-        return "";
-    }
+@Magic
+public interface Moja {
+     String pullOut();
 }

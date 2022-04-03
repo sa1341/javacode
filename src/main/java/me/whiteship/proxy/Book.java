@@ -12,4 +12,12 @@ public class Book {
         this.author = author;
         this.price = price;
     }
+
+    public String getAuthor() {
+        return author;
+    }
+
+    public int getPrice() {
+        return price;
+    }
 }
